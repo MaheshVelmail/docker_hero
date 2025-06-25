@@ -1,8 +1,10 @@
 name: My First workflow
+
 on: push
 jobs:
-    first_job:
-        run_on: ubuntu-latest
-        steps:
-        -name: welcome
-         run" echo "Mahesh"
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Welcome
+        run: |
+          echo "Mahesh"

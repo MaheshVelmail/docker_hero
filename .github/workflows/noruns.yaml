@@ -1,0 +1,9 @@
+name: no run
+
+on: push
+jobs:
+  deploy:
+    steps:
+      - name: Welcome
+        run: |
+          echo "Mahesh"

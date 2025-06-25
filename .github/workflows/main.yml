@@ -1,1 +1,7 @@
+name: My First
 
+on: push
+
+jobs:
+    first_job:
+        runs:echo "mahesh"

@@ -1,7 +1,5 @@
-name: My First
-
+name: My First workflow
 on: push
-
 jobs:
     first_job:
         run_on: ubuntu-latest
